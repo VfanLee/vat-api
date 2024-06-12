@@ -13,5 +13,7 @@ app.get('/about', (req, res) => {
 })
 
 server.listen(3000, () => {
-  console.log('Server running ...')
+  console.log('http://localhost:3000')
 })
+
+module.exports = app
