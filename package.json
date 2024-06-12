@@ -1,17 +1,21 @@
 {
-  "name": "nuxt-app",
+  "name": "vat-api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
   "private": true,
-  "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "start": "node server.js"
   },
+  "keywords": [
+    "vat-api",
+    "express",
+    "mockjs"
+  ],
+  "author": "Vfan Lee",
+  "license": "MIT",
   "dependencies": {
-    "nuxt": "^3.11.2",
-    "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "express": "^4.19.2",
+    "mockjs": "^1.1.0"
   }
 }
